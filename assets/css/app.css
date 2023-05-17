@@ -12,11 +12,15 @@ section{
 }
 section#slider{
     padding:0px !important;
-    height: 90vh;
-    background-color: blueviolet;
+    height: 75vh;
+    background-image: url('/img/bola berkelahi.jpg');
+    background-size: cover;
+}
+.slider-item{
 }
 section#hot{
-    padding-inline: 50px !important
+    background-color: yellow;
+    padding: 50px !important
 }
 article{
     height: 500px;
@@ -46,11 +50,27 @@ footer{
     border-radius: 5px;
     height: 200px;
     width: 100%;
+    background-color: white;
+}
+section#latest{
+    padding-inline: 100px;
+}
+.latest-item-header{
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 15px;
 }
 .latest-item{
     border: 1px solid grey;
     border-radius: 5px;
-    height: 100px;
+    height: 150px;
     width: 100%;
-    margin-bottom: 25px;
+}
+.latest-category{
+    border: 1px solid teal;
+    border-radius: 1px;
+    height:auto;
+    width: 100%;
 }

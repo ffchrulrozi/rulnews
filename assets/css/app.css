@@ -13,7 +13,7 @@ section{
 section#slider{
     padding:0px !important;
     height: 75vh;
-    background-image: url('/img/bola berkelahi.jpg');
+    background-image: url('/rulnews/img/bola berkelahi.jpg');
     background-size: cover;
 }
 .slider-item{
